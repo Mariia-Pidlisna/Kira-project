@@ -120,7 +120,7 @@ width: fit-content;
 .hero-title {
     margin-top: 64px;
 font-weight: 100;
-font-size: 64px;
+font-size: 58px;
 text-align: center;
 line-height: 1.5;
 filter: drop-shadow(5px 5px 0px rgba(255, 0, 255, 0.3));
@@ -195,6 +195,8 @@ color: var(--also-txt);
     display: flex;
     gap: 16px;
         flex-wrap: wrap;
+            align-items: center;
+    justify-content: center;
 }
 
 .about-box-item {
