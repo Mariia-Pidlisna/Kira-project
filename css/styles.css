@@ -151,6 +151,8 @@ margin-bottom: 64px;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 64px;
+        flex-wrap: wrap;
+    gap: 16px;
 }
 
 .about-box h3 {
@@ -192,6 +194,7 @@ color: var(--also-txt);
 .about-box-list {
     display: flex;
     gap: 16px;
+        flex-wrap: wrap;
 }
 
 .about-box-item {
