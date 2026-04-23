@@ -163,13 +163,14 @@ font-size: 22px;
 line-height: 1.5;
 color: var(--also-txt);
 font-style: normal;
+text-align: center;
 margin-bottom: 32px;
 }
 
 .about-content-text {
     width: 100%;
     max-width: 600px;
-    font-family: var(--font-family);
+    font-family: var(--third-family);
 font-weight: 300;
 font-size: 16px;
 line-height: 1.5;
@@ -215,7 +216,7 @@ color: var(--also-txt);
     border-radius: 999px;
 padding-block: 32px 48px;
 padding-inline: 32px;
-max-width: 408px;
+max-width: 368px;
 height: auto;
 
 background: linear-gradient(180deg, #0f1226 26.92%, #1a1f3a 100%);
