@@ -329,6 +329,50 @@ height: 500px;
     box-shadow: 0 0 20px var(--accent-blue);
 }
 
+
+/* ----------------- form ------------------  */
+.form-container {
+    padding-block: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+     background-image: url(/img/game-img.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title.form {
+    margin-bottom: 40px;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.order-form {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.order-form label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form input {
+  padding: 4px;
+}
+
 /* --------------------Футер---------------------- */
 .footer {
     background: #000;
